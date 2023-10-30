@@ -9,7 +9,6 @@ const MobilePhoneOutline = ({
 }: any) => {
   const maxLinks = 5;
   const displayedLinks = links.slice(0, maxLinks);
-  console.log(profileData);
 
   const platformColors: any = {
     GitHub: "#1A1A1A",

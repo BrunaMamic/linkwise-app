@@ -232,6 +232,7 @@ const ProfileLinkForm = ({ profileLinks, setProfileLinks }: any) => {
                       )}
                     </Draggable>
                   ))}
+                  {provided.placeholder}
                 </div>
               )}
             </Droppable>
