@@ -1,0 +1,99 @@
+.mobilePhone {
+  width: 300px;
+  height: 600px;
+  border: 3px solid #7170709e;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+}
+
+.profileInfo {
+  background: #fff;
+  width: 90%;
+  border-radius: 20px;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.link {
+  background: #98a5b0;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+  text-decoration: none;
+  display: flex;
+  height: 44px;
+  align-items: center;
+  align-self: stretch;
+}
+
+.profileImagePlaceholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.circularImageContainer {
+  width: 100px; 
+  height: 100px; 
+  overflow: hidden;
+  border-radius: 50%; 
+  background: #eeeeee; 
+}
+
+.circularImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  border-radius: 50%; 
+}
+
+.namePlaceholder {
+  width: 160px;
+  height: 16px;
+  background: #eee;
+  border-radius: 104px;
+  margin-bottom: 9px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.namePlaceholders {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.emailPlaceholder {
+  width: 100px;
+  height: 11px;
+  background: #eee;
+  border-radius: 104px;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+  width: 250px;
+  margin-top: 30px;
+}
+
+.linkPlaceholder {
+  width: 100%;
+  height: 44px;
+  background: #eee;
+  border-radius: 8px;
+}

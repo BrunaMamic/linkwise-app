@@ -1,0 +1,98 @@
+.profilePic {
+  display: flex;
+  padding: 20px;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  align-self: stretch;
+  border-radius: 12px;
+  background: var(--Light-Grey, #fafafa);
+}
+
+.imageInput {
+  width: 200px; 
+  height: 200px; 
+  border: 2px #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; 
+  border-radius: 12px;
+  background: var(--Light-yellow, #e9f0a6);
+}
+
+.imageInput input {
+  width: 130px;
+  height: 130px;
+  opacity: 0;
+  position: absolute;
+  cursor: pointer;
+}
+
+.formFields {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  align-self: stretch;
+  border-radius: 12px;
+  background: var(--Light-Grey, #fafafa);
+  margin-top: 24px;
+}
+
+.inputData {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.field {
+  display: flex;
+  padding: 12px 16px;
+  align-items: center;
+  gap: 12px;
+  flex: 1 0 0;
+  border-radius: 8px;
+  border: 1px solid var(--Borders, #d9d9d9);
+  background: var(--White, #fff);
+}
+
+.saveBtn {
+  display: flex;
+  padding: 11px 27px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  border-radius: 8px;
+  background: var(--Yellow, #c6d752);
+  border: none;
+  color: #fff;
+}
+
+.saveBtn:hover {
+  display: flex;
+  padding: 11px 27px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  border-radius: 8px;
+  background: var(--yellow-hover-color, #d7e472);
+  box-shadow: 0px 0px 32px 0px rgba(99, 60, 255, 0.25);
+}
+
+.saveDiv {
+  display: flex;
+  padding: 22px 0px 0px 0px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.saveBtnDisabled {
+  border-radius: 8px;
+  opacity: 0.25;
+  background: var(--Yellow, #c6d752);
+}

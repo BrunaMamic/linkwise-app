@@ -1,0 +1,14 @@
+
+.previewContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .previewHeader {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  

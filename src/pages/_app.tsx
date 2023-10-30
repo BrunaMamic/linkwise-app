@@ -1,6 +1,17 @@
-import '@/styles/globals.css'
-import type { AppProps } from 'next/app'
+import React from "react";
+import { AppProps } from "next/app";
+import { Instrument_Sans, Inter, Ubuntu } from "next/font/google";
+import 'src/styles/globals.css';
 
-export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+const instrument_sans = Instrument_Sans({subsets: ['latin']})
+
+
+function MyApp({ Component, pageProps }: AppProps) {
+  return (
+    <main className={instrument_sans.className}>
+      <Component {...pageProps} />
+    </main>
+  );
 }
+
+export default MyApp;
