@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
 
-  basePath: '/github-pages',
+  basePath: '/linkwise-app',
 }
 
 module.exports = nextConfig
