@@ -18,7 +18,7 @@ const Navbar = ({
       <div className={styles.navbarFrame}>
         {!showOverview && (
           <div className={styles.title}>
-            <img src={"/static/icons/linkwiseLogo.svg"} />
+            <img src={"../static/icons/linkwiseLogo.svg"} />
             Linkwise
           </div>
         )}
