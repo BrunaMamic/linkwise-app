@@ -74,8 +74,8 @@ const ProfileLinkForm = ({ profileLinks, setProfileLinks }: any) => {
   };
 
   const handleAddLink = (linkForm: any, index: number) => {
-    if (
-      linkForm.url.trim() !== "" &&
+    if ( //trim mice razmak sa pocetka i kraja stringa
+      linkForm.url.trim() !== "" && // ugl provjerava da nije prazno to untra
       isURLValid(linkForm.url, linkForm.platform)
     ) {
       const updatedLinks = [...profileLinks];
